@@ -1,0 +1,47 @@
+<resources>
+    <!-- App titles -->
+    <string name="app_name">Food Nutrition App</string>
+    <string name="app_subtitle">Discover the nutritional facts of your favorite foods</string>
+    <string name="app_logo">App Logo</string>
+    <string name="food_icon">Food Icon</string>
+
+    <!-- Main Activity -->
+    <string name="search_label">What food would you like to know about?</string>
+    <string name="food_name_hint">Enter food name (e.g., apple, chicken breast)</string>
+    <string name="search_button">Search Nutrition Facts</string>
+    <string name="instructions">Enter a food name and tap search to get detailed nutrition information</string>
+
+    <!-- Detail Activity -->
+    <string name="calories_title">Calories</string>
+    <string name="macronutrients_title">Macronutrients</string>
+    <string name="other_nutrients_title">Other Nutrients</string>
+
+    <!-- Nutrition Labels -->
+    <string name="total_fat">Total Fat</string>
+    <string name="saturated_fat">Saturated Fat</string>
+    <string name="total_carbs">Total Carbohydrates</string>
+    <string name="dietary_fiber">Dietary Fiber</string>
+    <string name="sugars">Sugars</string>
+    <string name="protein">Protein</string>
+    <string name="cholesterol">Cholesterol</string>
+    <string name="sodium">Sodium</string>
+
+    <!-- Other Keys Still in Use (optional) -->
+    <string name="search_food">Search Food</string>
+    <string name="search">Search</string>
+    <string name="nutrition_facts">Nutrition Facts</string>
+    <string name="fat">Fat</string>
+    <string name="fiber">Fiber</string>
+    <string name="sugar">Sugar</string>
+    <string name="loading">Loading...</string>
+    <string name="error_network">Network error occurred</string>
+    <string name="error_no_results">No results found</string>
+    <string name="error_empty_search">Please enter a food name</string>
+    <string name="grams">g</string>
+    <string name="mg">mg</string>
+    <string name="kcal">kcal</string>
+    <string name="per_100g">per 100g</string>
+    <string name="food_details">Food Details</string>
+    <string name="back">Back</string>
+    <string name="search_results">Search Results</string>
+</resources>

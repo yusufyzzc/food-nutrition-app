@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Color names expected by your code -->
+    <color name="primary_color">#4CAF50</color>
+    <color name="primary_dark">#388E3C</color>
+    <color name="accent_color">#FF9800</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="background_light">#FAFAFA</color>
+    <color name="background_gradient_start">#E8F5E8</color>
+    <color name="background_gradient_end">#F1F8E9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Extra colors -->
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#9E9E9E</color>
+    <color name="gray_dark">#424242</color>
+    <color name="blue_light">#E3F2FD</color>
+    <color name="green_light">#E8F5E8</color>
+    <color name="orange_light">#FFF3E0</color>
+    <color name="red_light">#FFEBEE</color>
+    <color name="error_red">#F44336</color>
+    <color name="success_green">#4CAF50</color>
+</resources>
