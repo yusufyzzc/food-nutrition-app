@@ -4,7 +4,7 @@ An Android application that allows users to easily learn the nutritional values 
 
 ## Application
 
-Main screen:                                           Nutrition facts result:  
+Main screen and Nutrition facts result:  
 ![Main Screen](screenshot1.png)                       ![Nutrition Facts Result](screenshot2.png)
 
 ## Features
