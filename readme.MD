@@ -31,7 +31,7 @@ Invalid search result:
 
 1. Clone this repository:
     ```bash
-    git clone [repo-url]
+    git clone github.com/yusufyzzc/food-nutrition-app
     ```
 2. Open the project with Android Studio.
 3. Make sure all dependencies are automatically installed.
