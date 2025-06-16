@@ -14,8 +14,6 @@
 .cxx
 local.properties
 .idea
-/screenshots
-.gitignore
 .vscode/
 
 
