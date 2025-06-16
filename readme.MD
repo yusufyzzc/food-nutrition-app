@@ -5,13 +5,11 @@ An Android application that allows users to easily learn the nutritional values 
 ## Application
 
 Main screen:  
-![Main Screen](./screenshots/screenshot1.png)
+![Main Screen](screenshot1.png)
 
 Nutrition facts result:  
-![Nutrition Facts Result](./screenshots/screenshot2.png)
+![Nutrition Facts Result](screenshot2.png)
 
-Invalid search result:  
-![Invalid Search Result](./screenshots/screenshot3.png)
 
 ## Features
 
