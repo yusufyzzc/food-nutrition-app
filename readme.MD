@@ -5,7 +5,7 @@ An Android application that allows users to easily learn the nutritional values 
 ## Application
 
 Main screen and Nutrition facts result:  
-![Main Screen](screenshot1.png)                       ![Nutrition Facts Result](screenshot2.png)
+![Main Screen](https://github.com/yusufyzzc/food-nutrition-app/blob/ac4f9879316f1c42211fa02f6d5d6d7878872ef0/ss/screenshot1.png)                       ![Nutrition Facts Result](https://github.com/yusufyzzc/food-nutrition-app/blob/ac4f9879316f1c42211fa02f6d5d6d7878872ef0/ss/screenshot2.png)
 
 ## Features
 
