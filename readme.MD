@@ -17,7 +17,7 @@ Main screen and Nutrition facts result:
 
 ### Requirements
 
-- Android Studio (Arctic Fox or newer recommended)
+- Android Studio 
 - Java JDK 8 or higher
 - Android device or emulator
 
