@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <!-- Main Fragment/Screen -->
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.foodnutritionapp.MainActivity"
+        android:label="Food Nutrition"
+        tools:layout="@layout/activity_main">
+
+        <action
+            android:id="@+id/action_main_to_detail"
+            app:destination="@id/nutritionDetailFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_main_to_favorites"
+            app:destination="@id/favoritesFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+
+        <action
+            android:id="@+id/action_main_to_dailyTracker"
+            app:destination="@id/dailyTrackerFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_main_to_comparison"
+            app:destination="@id/foodSelectionFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+    <!-- Nutrition Detail Fragment -->
+    <fragment
+        android:id="@+id/nutritionDetailFragment"
+        android:name="com.example.foodnutritionapp.view.NutritionDetailActivity"
+        android:label="Nutrition Details"
+        tools:layout="@layout/activity_nutrition_detail">
+
+        <!-- Safe Args for passing food data -->
+        <argument
+            android:name="foodName"
+            app:argType="string" />
+        <argument
+            android:name="calories"
+            app:argType="float"
+            android:defaultValue="0.0" />
+        <argument
+            android:name="protein"
+            app:argType="float"
+            android:defaultValue="0.0" />
+        <argument
+            android:name="carbs"
+            app:argType="float"
+            android:defaultValue="0.0" />
+        <argument
+            android:name="fat"
+            app:argType="float"
+            android:defaultValue="0.0" />
+    </fragment>
+
+    <!-- Favorites Fragment -->
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.foodnutritionapp.view.FavoritesActivity"
+        android:label="My Favorites"
+        tools:layout="@layout/activity_favorites">
+
+        <action
+            android:id="@+id/action_favorites_to_detail"
+            app:destination="@id/nutritionDetailFragment" />
+    </fragment>
+
+    <!-- Daily Tracker Fragment -->
+    <fragment
+        android:id="@+id/dailyTrackerFragment"
+        android:name="com.example.foodnutritionapp.view.DailyTrackerActivity"
+        android:label="Daily Tracker"
+        tools:layout="@layout/activity_daily_tracker" />
+
+    <!-- Food Selection Fragment (for comparison) -->
+    <fragment
+        android:id="@+id/foodSelectionFragment"
+        android:name="com.example.foodnutritionapp.view.FoodSelectionActivity"
+        android:label="Select Foods"
+        tools:layout="@layout/activity_food_selection">
+
+        <action
+            android:id="@+id/action_selection_to_comparison"
+            app:destination="@id/comparisonFragment" />
+    </fragment>
+
+    <!-- Comparison Fragment -->
+    <fragment
+        android:id="@+id/comparisonFragment"
+        android:name="com.example.foodnutritionapp.view.ComparisonActivity"
+        android:label="Compare Foods"
+        tools:layout="@layout/activity_comparison">
+
+        <!-- Safe Args for comparing two foods -->
+        <argument
+            android:name="food1Name"
+            app:argType="string" />
+        <argument
+            android:name="food1Calories"
+            app:argType="float" />
+        <argument
+            android:name="food2Name"
+            app:argType="string" />
+        <argument
+            android:name="food2Calories"
+            app:argType="float" />
+    </fragment>
+
+</navigation>
