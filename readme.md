@@ -24,11 +24,10 @@ A Android application for tracking food nutrition, comparing nutritional values 
 ##  Application
 
 <p align="center">
-  <img src="img/main_screen.png" width="150"/>
-  <img src="img/detail_screen.png" width="147"/>
-  <img src="img/compare_screen.png" width="150"/>
+  <img src="img/main_screen.png" width="260" style="margin-right: 12px;"/>
+  <img src="img/detail_screen.png" width="260" style="margin-right: 12px;"/>
+  <img src="img/compare_screen.png" width="260"/>
 </p>
-
 
 
 ## API Information
