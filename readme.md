@@ -7,17 +7,16 @@ A Android application for tracking food nutrition, comparing nutritional values 
 ## Features
 
 ### Core Functionality
-- **Food Search & Database** - Search through extensive food database with detailed nutritional information
-- **Nutritional Tracking** - Monitor daily calorie and macronutrient intake
-- **Food Comparison** - Compare nutritional values between different foods side-by-side
-- **Favorites Management** - Save and quick-access your frequently used foods
-- **Quick Add** - Manually add foods with custom portion sizes
-- **Daily Dashboard** - Visual overview of today's calorie intake and search history
+- **Food Search & Database** 
+- **Nutritional Tracking** 
+- **Food Comparison** 
+- **Favorites Management** 
+- **Quick Add** 
 
 ### UX
-- **Dark Mode Support** - Comfortable viewing in low-light environments
-- **Responsive Design** - Optimized layouts for various screen sizes
-- **Intuitive Navigation** - Easy-to-use interface for quick food logging
+- **Dark Mode Support** 
+- **Responsive Design** 
+- **Intuitive Navigation** 
 
 
 
@@ -25,7 +24,7 @@ A Android application for tracking food nutrition, comparing nutritional values 
 
 <p align="center">
   <img src="img/main_screen.png" width="260" style="margin-right: 12px;"/>
-  <img src="img/detail_screen.png" width="257" style="margin-right: 12px;"/>
+  <img src="img/detail_screen.png" width="256" style="margin-right: 12px;"/>
   <img src="img/compare_screen.png" width="260"/>
 </p>
 
