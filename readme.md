@@ -1,47 +1,58 @@
-# Food Nutrition App
+# GreenBowl - Food Nutrition Tracker
 
-## System Requirements
-- Android Studio Hedgehog (2023.1.1) or later
-- JDK 11 or higher
-- Android SDK API 34
-- Internet connection (required for initial setup)
+A Android application for tracking food nutrition, comparing nutritional values and managing daily dietary intake. Built with modern Android architecture and best practices.
 
-## Installation Steps
 
-1. **Open the Project**
-    - Android Studio → File → Open
-    - Select the `FoodNutritionApp` directory
-
-2. **Gradle Sync**
-    - Gradle sync will start automatically
-    - Please wait approximately 2–5 minutes
-
-3. **Set Up Emulator**
-    - Tools → Device Manager → Create Device
-    - Select *Medium Phone* and choose API 34
-
-4. **Run the Application**
-    - Run → Run `app` (Shift + F10)
-
-    
-
-## API Information
-- **USDA API Key:** Included in the source code
-- **Min SDK:** 24 (Android 7.0)
-- **Target SDK:** 34 (Android 14)
 
 ## Features
-Food search and nutritional information
 
-Add foods to favorites
+### Core Functionality
+- **Food Search & Database** - Search through extensive food database with detailed nutritional information
+- **Nutritional Tracking** - Monitor daily calorie and macronutrient intake
+- **Food Comparison** - Compare nutritional values between different foods side-by-side
+- **Favorites Management** - Save and quick-access your frequently used foods
+- **Quick Add** - Manually add foods with custom portion sizes
+- **Daily Dashboard** - Visual overview of today's calorie intake and search history
 
-Daily calorie tracking
+### UX
+- **Dark Mode Support** - Comfortable viewing in low-light environments
+- **Responsive Design** - Optimized layouts for various screen sizes
+- **Intuitive Navigation** - Easy-to-use interface for quick food logging
 
-Food comparison
 
-Dark mode support
 
-More than 10 unit tests
+##  Application
 
-More than 11 UI tests
+<p align="center">
+  <img src="img/main_screen.png" width="150"/>
+  <img src="img/detail_screen.png" width="147"/>
+  <img src="img/compare_screen.png" width="150"/>
+</p>
+
+
+
+## API Information
+
+- **USDA API Key:** Included in the source code
+- **Database:** USDA FoodData Central API for comprehensive food nutritional data
+
+
+
+
+##  QA
+
+- **Unit Tests:** 10+ comprehensive unit tests
+- **UI Tests:** 11+ UI automation tests
+- **Test Framework:** AndroidX Test, JUnit, Espresso
+
+
+
+
+##  Tech Stack
+
+- **Language:** Kotlin/Java
+- **Build System:** Gradle
+- **Architecture:** Modern Android Architecture (MVVM/Clean Architecture)
+- **Testing:** AndroidX Test, Espresso, JUnit
+
 
