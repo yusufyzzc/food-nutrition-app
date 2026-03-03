@@ -1,22 +1,22 @@
 # GreenBowl - Food Nutrition Tracker
 
-A Android application for tracking food nutrition, comparing nutritional values and managing daily dietary intake. Built with modern Android architecture and best practices.
+An Android application for tracking food nutrition, comparing nutritional values and managing daily dietary intake. Built with modern Android architecture and best practices.
 
 
 
 ## Features
 
 ### Core Functionality
-- **Food Search & Database** 
-- **Nutritional Tracking** 
-- **Food Comparison** 
-- **Favorites Management** 
-- **Quick Add** 
+- Food Search & Database
+- Nutritional Tracking
+- Food Comparison
+- Favorites Management
+- Quick Add
 
 ### UX
-- **Dark Mode Support** 
-- **Responsive Design** 
-- **Intuitive Navigation** 
+- Dark Mode Support
+- Responsive Design
+- Intuitive Navigation
 
 
 
